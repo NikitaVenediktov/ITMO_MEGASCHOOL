@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "itmo-megaschool"
+version = "0.1.0"
+description = ""
+authors = ["NikitaVenediktov <n.venediktov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+openai = "^1.60.2"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+langchain = "^0.3.17"
+gradio = "^5.13.2"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.16"
+langchain-openai = "^0.3.3"
+fitz = "^0.0.1.dev2"
+frontend = "^0.0.3"
+pymupdf = "^1.25.2"
+python-pptx = "^1.0.2"
+pdf2image = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
